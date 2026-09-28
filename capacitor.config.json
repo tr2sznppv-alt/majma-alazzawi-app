@@ -1,0 +1,15 @@
+{
+  "appId": "com.catalog.products",
+  "appName": "كتالوج المنتجات",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "http",
+    "allowNavigation": [
+      "vkjsynailhrjtfbzysjn.supabase.co",
+      "*.supabase.co"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

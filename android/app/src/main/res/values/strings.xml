@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">مجمع العزاوي</string>
+    <string name="title_activity_main">مجمع العزاوي</string>
+    <string name="package_name">com.catalog.products</string>
+    <string name="custom_url_scheme">com.catalog.products</string>
+</resources>

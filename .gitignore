@@ -1,0 +1,93 @@
+# ═══ المكتبات (ضخمة) ═══
+node_modules/
+
+# ═══ Android ═══
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+android/local.properties
+android/.idea/
+android/*.iml
+
+# ═══ Keystore (سري!) ═══
+*.jks
+*.keystore
+keystore/
+majma-alazzawi-release.jks
+
+# ═══ المفاتيح السرية ═══
+.supabase_key
+api-config.local.js
+
+# ═══ النسخ المؤقتة ═══
+*.log
+*.tmp
+*.bak
+*.backup
+*.backup-*
+
+# ═══ المنصة ═══
+.DS_Store
+Thumbs.db
+
+# ═══ IDE ═══
+.vscode/
+.idea/
+
+# ═══ APK المبنية (نرفعها يدويًا في Releases) ═══
+android/app/build/outputs/
+
+# ═══ Termux ═══
+.shortcuts/
+
+# ═══ نسخ احتياطية (ضخمة) ═══
+backups/
+www-backup-*
+*-backup-*
+*.backup-*
+*.before
+
+# ═══ الخادم المحلي (يحتوي DB) ═══
+server/
+postgres-data/
+
+# ═══ أدوات مؤقتة ═══
+tools/
+catalog-app-check.js
+catalog-check.js
+catalog-script-check.js
+
+# ═══ Python cache ═══
+*.pyc
+__pycache__/
+
+# ═══ ملفات فارغة / غريبة ═══
+-H
+Configure
+PY
+Task
+bootstrap.html
+
+# ═══ Android build artifacts ═══
+android/aapt2
+android/META-INF/
+android/NOTICE
+
+# ═══ نسخ قبل التعديلات ═══
+res.before-*
+*.before-branding/
+*.before-*
+*.before-signing
+
+# ═══ ملفات البناء القديمة ═══
+android/app/build.gradle.before-*
+
+# ═══ نسخ index.html القديمة ═══
+www/*-backup
+www/*.backup
+www/*.before*
+www/index.html.*
+
+# ═══ ملف android/ion (غامض) ═══
+android/ion
