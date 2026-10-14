@@ -91,3 +91,11 @@ www/index.html.*
 
 # ═══ ملف android/ion (غامض) ═══
 android/ion
+
+# ═══ منع النسخ الاحتياطية في www/ ═══
+www/*.backup
+www/*.before
+www/*.bak
+www/index.html.*
+www/test.html
+www/api-config.js
