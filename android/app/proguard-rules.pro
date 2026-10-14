@@ -19,3 +19,40 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+# ═══════════════════════════════════════════════════════
+# Capacitor Core
+# ═══════════════════════════════════════════════════════
+-keep class com.getcapacitor.** { *; }
+-keep @com.getcapacitor.annotation.CapacitorPlugin class * { *; }
+-keep public class * extends com.getcapacitor.Plugin { *; }
+-keepclassmembers class * extends com.getcapacitor.Plugin {
+    @com.getcapacitor.PluginMethod public <methods>;
+}
+
+# ═══════════════════════════════════════════════════════
+# Capacitor Plugins
+# ═══════════════════════════════════════════════════════
+-keep class com.capacitorjs.plugins.** { *; }
+-keep class com.ryltsov.alex.plugins.file.opener.** { *; }
+
+# ═══════════════════════════════════════════════════════
+# WebView JavaScript Interface
+# ═══════════════════════════════════════════════════════
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# ═══════════════════════════════════════════════════════
+# AndroidX
+# ═══════════════════════════════════════════════════════
+-keep class androidx.** { *; }
+-dontwarn androidx.**
+
+# ═══════════════════════════════════════════════════════
+# عام
+# ═══════════════════════════════════════════════════════
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
